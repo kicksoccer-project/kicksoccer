@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ksoc
+Comment=Ksoc P2P Cryptocurrency
+Comment[fr]=Ksoc, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ksoc, eşten eşe kriptografik sanal para birimi
+Exec=kicksoccer-qt %u
+Terminal=false
+Type=Application
+Icon=ksoc128
+MimeType=x-scheme-handler/ksoc;
+Categories=Office;Finance;

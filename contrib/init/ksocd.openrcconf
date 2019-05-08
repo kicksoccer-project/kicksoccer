@@ -1,0 +1,26 @@
+# /etc/conf.d/ksocd: config file for /etc/init.d/ksocd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/kicksoccer/kicksoccer.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/ksocd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/ksocd.pid"
+
+# Where to write ksocd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/ksocd"
+
+# User and group to own ksocd process
+#BITCOIND_USER="ksoc"
+#BITCOIND_GROUP="ksoc"
+
+# Path to ksocd executable
+#BITCOIND_BIN="/usr/bin/ksocd"
+
+# Nice value to run ksocd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

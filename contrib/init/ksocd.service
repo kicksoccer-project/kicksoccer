@@ -1,0 +1,26 @@
+[Unit]
+Description=KickSoccer's distributed currency daemon
+After=network.target
+
+[Service]
+User=ksoc
+Group=ksoc
+
+Type=forking
+PIDFile=/var/lib/kicksoccerd/kicksoccerd.pid
+
+ExecStart=/usr/bin/kicksoccerd -daemon -pid=/var/lib/kicksoccerd/kicksoccerd.pid \
+          -conf=/etc/kicksoccer/kicksoccer.conf -datadir=/var/lib/kicksoccerd
+
+ExecStop=-/usr/bin/kicksoccer-cli -conf=/etc/kicksoccer/kicksoccer.conf \
+         -datadir=/var/lib/kicksoccerd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

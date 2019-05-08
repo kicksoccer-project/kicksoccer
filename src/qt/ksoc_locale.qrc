@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ksoc_bg.qm</file>
+        <file alias="ca">locale/ksoc_ca.qm</file>
+        <file alias="cs">locale/ksoc_cs.qm</file>
+        <file alias="da">locale/ksoc_da.qm</file>
+        <file alias="de">locale/ksoc_de.qm</file>
+        <file alias="en">locale/ksoc_en.qm</file>
+        <file alias="en_US">locale/ksoc_en_US.qm</file>
+        <file alias="es">locale/ksoc_es.qm</file>
+        <file alias="fi">locale/ksoc_fi.qm</file>
+        <file alias="fr_FR">locale/ksoc_fr_FR.qm</file>
+        <file alias="it">locale/ksoc_it.qm</file>
+        <file alias="ja">locale/ksoc_ja.qm</file>
+        <file alias="ko_KR">locale/ksoc_ko_KR.qm</file>
+        <file alias="nl">locale/ksoc_nl.qm</file>
+        <file alias="pl">locale/ksoc_pl.qm</file>
+        <file alias="pt">locale/ksoc_pt.qm</file>
+        <file alias="pt_BR">locale/ksoc_pt_BR.qm</file>
+        <file alias="ro_RO">locale/ksoc_ro_RO.qm</file>
+        <file alias="ru">locale/ksoc_ru.qm</file>
+        <file alias="sk">locale/ksoc_sk.qm</file>
+        <file alias="sv">locale/ksoc_sv.qm</file>
+        <file alias="uk">locale/ksoc_uk.qm</file>
+        <file alias="zh_CN">locale/ksoc_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ksoc_zh_TW.qm</file>
+    </qresource>
+</RCC>
